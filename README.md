@@ -18,8 +18,6 @@ REQUIREMENTS
 HOW TO USE
 ==============================================
 
-METHOD 1 - CMD
-
 1. Open a CMD in the folder where script is located.
 2. type - python .\YT_MP3_Playlist_Downloader.py
 3. Enter Youtube playlist link
@@ -27,11 +25,3 @@ METHOD 1 - CMD
 5. wait!
 6. done!
 
-METHOD 2 - APPLICATION
-
-1. Goto Application>dist
-2. Open the application
-3. Enter Youtube playlist link
-4. Choose destination folder
-5. wait!
-6. done!
