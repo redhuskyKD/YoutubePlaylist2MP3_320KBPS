@@ -77,7 +77,7 @@ def open_and_exit(url_destination):
 
 def main():
     while True:
-        sg.theme('DarkRed')
+        sg.theme('LightGreen6')
 
         key_yt_url = 'yt_url'
         key_path = 'path'
@@ -90,7 +90,7 @@ def main():
             [sg.Input(key=key_yt_url, size=(100, 1), enable_events=True)],
             [sg.Text('')],
             [sg.Text('Choose folder to save files:')],
-            [sg.Input(key=key_path, size=(100, 1), disabled=True, disabled_readonly_background_color='DarkRed',
+            [sg.Input(key=key_path, size=(100, 1), disabled=True, disabled_readonly_background_color='PaleGreen4',
                       enable_events=True), sg.Button(button_text="...")],
             [sg.Text('')],
             [sg.Text('Please select a youtube-dl implementation (DO NOT CHANGE UNLESS ERRORS POP-UP):')],
